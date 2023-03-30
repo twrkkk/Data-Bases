@@ -1,0 +1,6 @@
+SELECT CONCAT(last_name, ' for the year received ', salary * 12) AS "Total salary",
+       CASE
+            WHEN commission_pct IS NOT NULL THEN salary * commission_pct
+            ELSE 0
+       END AS "Premium salary"
+FROM employees;
