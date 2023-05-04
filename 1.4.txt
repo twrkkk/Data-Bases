@@ -1,3 +1,0 @@
-SELECT last_name, STRING_AGG(job_id, ', ') AS "Employee and Title"
-	FROM employees
-	GROUP BY last_name

@@ -1,3 +1,0 @@
-select distinct department_id
-	from employees
-	where department_id is not null

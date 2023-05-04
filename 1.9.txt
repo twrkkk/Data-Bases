@@ -1,2 +1,0 @@
-SELECT CONCAT(first_name, ' ', last_name, ' has phone number ', phone_number) AS "Employees salary"       
-	FROM employees

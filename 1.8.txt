@@ -1,2 +1,0 @@
-SELECT CONCAT(first_name, '`s salary is ', salary) AS "Employees salary"       
-	FROM employees;

@@ -1,3 +1,0 @@
-select employee_id, sum(salary * 12)
-	from employees
-	group by 1

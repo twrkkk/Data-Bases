@@ -1,2 +1,0 @@
-select last_name, job_id, hire_date, employee_id as "STARTDATE"
-	from employees
